@@ -235,7 +235,29 @@ a {
 
 .container {}
 
-.evo-black__inner {}
+.evo-black__inner {
+  position: relative;
+}
+
+.evo-black__inner::before {
+  content: '';
+  position: absolute;
+  background: url(/images/decor/dec-1.svg);
+  width: 185px;
+  height: 213px;
+  top: 205px;
+  left: -150px;
+}
+
+.evo-black__inner::after {
+  content: '';
+  position: absolute;
+  background: url(/images/decor/dec-2.svg);
+  width: 498px;
+  height: 572px;
+  top: 288px;
+  left: -40px;
+}
 
 .evo-black__info {
   display: flex;
@@ -261,6 +283,8 @@ a {
 .evo-black__img {
   display: block;
   margin: 168px auto 58px;
+  position: relative;
+  z-index: 1;
 }
 
 .evo__descr-list {
@@ -277,6 +301,27 @@ a {
 
 .evo-white__inner {
   padding-top: 126px;
+  position: relative;
+}
+
+.evo-white__inner::before {
+  content: '';
+  position: absolute;
+  background: url(/images/decor/dec-3.png);
+  width: 274px;
+  height: 250px;
+  top: -25px;
+  right: 262px;
+}
+
+.evo-white__inner::after {
+  content: '';
+  position: absolute;
+  background: url(/images/decor/dec-4.png);
+  width: 324px;
+  height: 302px;
+  top: 130px;
+  right: -40px;
 }
 
 .evo-white__text {
