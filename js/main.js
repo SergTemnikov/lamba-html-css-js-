@@ -1,14 +1,10 @@
-
-import Swiper, { Navigation, Pagination } from 'swiper';
-// import Swiper and modules styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-// init Swiper:
 const swiper = new Swiper('.swiper', {
-  // configure Swiper to use modules
-  modules: [Navigation],
-  
+  loop: true,
+  slidesPerView: 2,
+  spaceBetween: 20,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
 });
 
