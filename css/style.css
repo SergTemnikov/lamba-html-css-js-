@@ -407,3 +407,35 @@ a {
 .swiper-button-right {
   transform: translateX(7px);
 }
+
+.blog__quote {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+.blog__quote-box {
+  flex-basis: 438px;
+}
+.blockquote {
+  margin-bottom: 30px;
+}
+.blockquote__name {
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.blockquote__name span {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: #9F6B08;
+  margin-bottom: 3px;
+}
+
+.blockquote__text {
+  font-style: italic;
+}
+.blog__quote-img {
+  flex-basis: 434px;
+}
