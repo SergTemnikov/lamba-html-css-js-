@@ -46,6 +46,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -413,12 +417,15 @@ a {
   justify-content: space-between;
   gap: 0 20px;
 }
+
 .blog__quote-box {
   flex-basis: 438px;
 }
+
 .blockquote {
   margin-bottom: 30px;
 }
+
 .blockquote__name {
   font-weight: 700;
   margin-bottom: 10px;
@@ -436,6 +443,70 @@ a {
 .blockquote__text {
   font-style: italic;
 }
+
 .blog__quote-img {
   flex-basis: 434px;
 }
+
+.footer {
+  background-color: #363636;
+  color: #fff;
+  padding: 100px 0 80px;
+}
+
+.footer__title {
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.container {}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__info {}
+
+.footer__info li {
+  list-style: none;
+}
+
+.footer__info-item {
+  margin-bottom: 40px;
+}
+
+.footer__info-item dt {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__list-item {
+  list-style: none;
+}
+
+.social__list-link {}
+
+.social__list-icon {}
+
+.footer__address {}
+
+.footer__address-title {}
+
+.footer__address-text {}
+
+.footer__bottom {}
+
+.footer__bottom-link {}
+
+.footer__logo {}
+
+.footer__logo-img {}
